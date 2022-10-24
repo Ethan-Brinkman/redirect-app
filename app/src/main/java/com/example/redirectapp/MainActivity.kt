@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
 
 
         findViewById<View>(R.id.Timely_btn).setOnClickListener{
-            val url = "https://google.com"
+            val url = "https://timely-frontend-dev.azurewebsites.net/"
             val i = Intent(Intent.ACTION_VIEW)
             i.data = Uri.parse(url)
             startActivity(i)
